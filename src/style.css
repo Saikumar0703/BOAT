@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px
+    ;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff; /* Adjust as needed */
+    padding: 5px; /* Adjust as needed */
+  }
+ 
+
+.header
+{
+background-color: lightgray;
+padding:1px;
+line-height: normal;
+font-weight: 400;
+}
+
+.video video{
+    
+    width: 21%;
+    border-radius: 2%;
+    margin: 6px;
+    margin-left:1.5% ;
+}
+
+.video h4{
+    margin-left: 30px;
+}
+.card{
+    /* height: 100%; */
+    width: 280px;
+    margin: 6px;
+
+    border-radius: 20px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease-out;
+ 
+}
+
+
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 50px rgba(36, 32, 32, 0.2);
+}
+
+
+.playback{
+    width: 80%;
+    background-color: #fcc50b;
+    /* margin: 35px;
+    margin-top: 410px; */
+    display: flex;
+    flex: wrap 1;
+    justify-content: center;
+    align-items: center;
+    /* border:0px solid black; */
+    border-radius: 12px;
+    position: relative;
+    top: -11px;
+    margin: auto;
+}
+.playback1{
+    width: 80%;
+    background-color: #fcc50b;
+    /* margin: 35px; */
+    /* margin-top: 413px; */
+    display: flex;
+    flex: wrap 1;
+    justify-content: center;
+    align-items: center;
+    /* border: 0px solid black; */
+    border-radius: 12px;
+    position: relative;
+    top: -11px;
+    margin: auto;
+}
+.playback2{
+    width: 80%;
+    background-color: #fcc50b;
+    /* margin: 35px;
+    margin-top: 413px; */
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border:0px solid black; */
+    border-radius: 12px;
+    position: relative;
+    top: -11px;
+    margin: auto;
+}
+.amount{
+    
+    text-decoration: line-through;
+    font-size: 10px;
+    color:grey !important
+}
+
+.amount1{
+    color:black !important;
+    /* margin-top: -30px; */
+}
+.amount10{
+    margin-top: -30px;
+}
+
+.amount2{
+    text-decoration: line-through;
+    font-size: 15px !important;
+    color:green !important;
+    text-decoration: none !important;
+    padding: 0px 5px;
+
+}
+.amount3{
+    text-decoration: line-through;
+    font-size: medium;
+    padding: 0px 5px;
+}
+
+.video span{
+    position: relative;
+    z-index: 99;
+    font-size: 40px;
+    color :red;
+    background-color: black     ;
+}
+.card1{
+    display: flex;
+    margin: 15px;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.btn1{
+    float: right;
+}
+.card2{
+    display: flex;
+}
+.watches{
+    height: 200px;
+    width: 360px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.Hours {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 154px!important; */
+     margin: auto;
+    /* margin-top: 165px; */
+    border-radius: 0 0 20px 20px!important;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #fcc50b;
+}
+.custom-button {
+    height: 40px; 
+    width: 140px; 
+    border-radius: 6px; 
+  }
+  .mycircle span{
+    height:20px;
+    width:20px;
+    background-color: red;
+    border-radius: 50%;
+    display:inline-block;
+}
+.mycircle p{
+    position: relative;
+    /* right:40px */
+    display: flex;
+    
+}
+.mycircle .two{
+position: absolute;
+right:2px;
+margin-right:30px;
+
+}
+.dropdown-menu{
+    margin-left: -60px;
+}
+.congratulation-wrapper {
+    max-width: 550px;
+    margin-inline: auto;
+    -webkit-box-shadow: 0 0 20px #f3f3f3;
+    box-shadow: 0 0 20px #f3f3f3;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.congratulation-contents.center-text .congratulation-contents-icon {
+    margin-inline: auto;
+}
+.congratulation-contents-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #65c18c;
+    color: #fff;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.congratulation-contents-title {
+    font-size: 32px;
+    line-height: 36px;
+    margin: -6px 0 0;
+}
+.congratulation-contents-para {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.btn-wrapper {
+    display: block;
+}
+.cmn-btn.btn-bg-1 {
+    background: #6176f6;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius:3px;
+    text-decoration: none;
+    padding:5px;
+}
+@media (max-width:500px){
+    .card{
+        width: 80% !important;
+        
+
+    }
+    .categories{
+      display: block;
+    }
+
+}

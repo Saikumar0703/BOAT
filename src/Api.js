@@ -1,0 +1,93 @@
+const myapi=[
+    {
+        id:1,
+        name:"Boat131",
+        nam:"Stone Majestic Riverdale",
+        playback:"60 Hours Playback",
+        battery:"6 Hours Playback",
+        price:"₹899",
+        price1:"2990",
+        price2:"₹9,990",
+        price3:"21,990",
+        star:"4.9",
+        verified:"1336",
+        off:"70%",
+        off1:"55%",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_131.webp?v=1702977855",
+        image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_Archies.jpg?v=1701508203",
+        image1:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.webp?v=1702977855",
+        category:"Airpods",
+        category1:"headphones",
+        category2:"Airpods"
+    },
+    {
+        id:2,
+        name:"Boat161",
+        nam:"Aavante Bar 558",
+        playback:"40 Hours Playback",
+        battery:"16W RMS Sound",
+        price:"₹999",
+        price1:"2490",
+        price2:"₹2,199",
+        price3:"3,990",
+        off:"60%",
+        off1:"45%",
+        star:"4.8",
+        verified:"149",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.webp?v=1702977855",
+        image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AB_558.jpg?v=1700813065",
+        image1:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_131_e7e95f2c-0bb3-492e-89df-613a2cfb792f.jpg?v=1686297917",
+        category:"Airpods",
+        category1:"headphones",
+        category2:"Airpods"
+    },
+    {
+        id:3,
+        name:"Boat235 V2",
+        nam:"Lunar Tigon",
+        playback:"8 Hours Playback",
+        battery:"BT Calling",
+        price:"₹999",
+        price1:"2990",
+        price2:"₹2,899",
+        price3:"11,999",
+        off:"67%",
+        off1:"76%",
+        star:"4.9",
+        verified:"1074",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/R235_V2.webp?v=1702977855",
+        image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Lunar_Tigon.webp?v=1702287204",
+        image1:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Wave_Flex_Connect.jpg?v=1689751649",
+        category:"neckband",
+        category1:"Smartwatches",
+        category2:"Smartwatches"
+    },
+    {
+        id:4,
+        name:"Boat 141",
+        nam:"Airdopes 121v2 Plus",
+        playback:"42 Hours Playback",
+        battery:"50 Hours Playback",
+        price:"₹1229",
+        price1:"4490",        
+        price2:"₹1,499",
+        price3:"4,990",
+        off:"71%",
+        off1:"70%",
+        star:"4.8",
+        verified:"648",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_141.webp?v=1702977855",
+        image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_121_v2_Plus.jpg?v=1700485056",
+        image1:"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_141.webp?v=1702977855",
+        category:"Airpods",
+        category1:"Airpods",
+        category2:"Airpods"
+    },
+
+    
+
+        
+]
+
+export default myapi;
+
